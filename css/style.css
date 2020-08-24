@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #DD335C;
   transition: 0.5s;
 }
 
@@ -158,8 +158,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  max-height: 60px;
+  margin-top: -10px;
 }
 
 .main-pages {
@@ -173,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/intro-bg-wca.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -196,7 +196,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #FF6394;
   text-decoration: underline;
 }
 
@@ -215,8 +215,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #FF3366;
+  border: 2px solid #FF3366;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@ h6 {
   list-style: none;
 }
 
-.main-nav > ul > li {
+.main-nav>ul>li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -263,7 +263,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #5E1627;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -272,9 +272,9 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
-.main-nav li:hover > a {
-  color: #007bff;
+.main-nav .active>a,
+.main-nav li:hover>a {
+  color: #DD335C;
   text-decoration: none;
 }
 
@@ -292,7 +292,7 @@ h6 {
   transition: ease all 0.3s;
 }
 
-.main-nav .drop-down:hover > ul {
+.main-nav .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -310,12 +310,12 @@ h6 {
 }
 
 .main-nav .drop-down ul a:hover,
-.main-nav .drop-down ul .active > a,
-.main-nav .drop-down ul li:hover > a {
+.main-nav .drop-down ul .active>a,
+.main-nav .drop-down ul li:hover>a {
   color: #007bff;
 }
 
-.main-nav .drop-down > a:after {
+.main-nav .drop-down>a:after {
   content: "\f107";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -326,17 +326,17 @@ h6 {
   left: calc(100% - 30px);
 }
 
-.main-nav .drop-down .drop-down:hover > ul {
+.main-nav .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.main-nav .drop-down .drop-down > a {
+.main-nav .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.main-nav .drop-down .drop-down > a:after {
+.main-nav .drop-down .drop-down>a:after {
   content: "\f105";
   position: absolute;
   right: 15px;
@@ -372,13 +372,13 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active > a,
-.mobile-nav li:hover > a {
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #74b5fc;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\f078";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -386,11 +386,11 @@ h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\f077";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -1185,14 +1185,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #590D1F;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #991735;
   padding: 60px 0 30px 0;
 }
 
@@ -1223,7 +1223,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #E62250;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
