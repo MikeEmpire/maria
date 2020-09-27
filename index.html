@@ -591,7 +591,9 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="/thanks.html" name="Maria's form" method="POST" data-netlify="true" class="contactForm">
+              <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="8315f224-88a3-4a9c-81f6-ebd548ebacff" />
+                <input type="hidden" name="redirectTo" value="https://www.google.com">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
